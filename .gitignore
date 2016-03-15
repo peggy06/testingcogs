@@ -1,0 +1,4 @@
+/app/config/database.php
+/app/controllers/CMSGenerator.php
+/app/views/cmsgenerator/*
+/assets/uploads/

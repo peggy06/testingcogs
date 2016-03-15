@@ -1,0 +1,187 @@
+@font-face {
+   font-family: myFont;
+   src: url('../fonts/AF TOMMY HILFIGER.ttf');
+}
+
+
+body section gallery div.panel {
+	background: #222;
+	float: left;
+	margin: 5px;
+	padding: 5px;
+	border: 1px solid #22;
+	height: 350px;
+	opacity: 0.7;
+}
+
+body section gallery div.panel:hover {
+	opacity: 1;
+}
+
+body section gallery a p{
+	
+	color: #fff;
+	font-family: myFont;
+}
+
+
+body section gallery img {
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	border-radius: 100px;
+	width: 205px;
+	height: 205px;
+	margin: 10px 10px;
+}
+
+
+.invi{
+	visibility: hidden;
+}
+
+.show{
+	visibility: visible;
+}
+
+
+.style{
+	display: inline;
+}
+
+.frame{
+	width: 100%;
+	height: 100%;
+	opacity: 0.5;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	background: #fff;
+	z-index: 1;
+}
+
+div.style {
+}
+
+.disableScroll{
+	overflow: hidden;
+}
+
+.enableScroll{
+	overflow-x: hidden;
+	overflow-y: scroll;
+	scrollbar-3dlight-color: #222;
+}
+
+body{
+	background: url('../images/bg5.jpg') fixed no-repeat center;
+	background-size: 100% 100%;
+	font-family: myFont;
+	color: #fff;
+}
+
+body div.username{
+	position: relative;
+	margin: 0px 0px 0px 0px;
+	font-size: 17px;
+	font-weight: bold;
+	float: right;
+}
+
+body div.username ul li ul a{
+	color: #222;
+}
+
+body div.username ul li ul{
+	margin: 0 0 0 70;
+}
+
+body div.username a{
+	color: #fff;
+}
+
+body div.username a:hover{
+	color: #adcc00;
+}
+
+body profile img {
+	-moz-border-radius: 75px;
+	-webkit-border-radius:75px;
+	border-radius: 75px;
+	width: 50px;
+	height: 50px;
+	margin: 10px 10px;
+}
+
+body section div.gallery img {
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	border-radius: 100px;
+	width: 205px;
+	height: 205px;
+	margin: 70px auto 20px auto;
+}
+
+body section div.gallery div.style {
+	opacity: 0.7;
+}
+
+body section div.gallery div.style:hover{
+	opacity: 1;
+}
+
+body section div.logpanel{
+	font-family: Arial;
+	background: #222;
+	margin: 0 350 5 350;
+	float: left;
+	padding: 20px;
+	border: 1px solid #22;
+	width: 500;
+	height: 300px;
+	opacity: 0.7;
+}
+
+body section div.acctpanel{
+	font-family: Arial;
+	background: #222;
+	margin: 0 350 5 350;
+	float: left;
+	padding: 20px;
+	border: 1px solid #22;
+	width: 500;
+	height: 350px;
+	opacity: 0.7;
+}
+
+body section div.spanel{
+	font-family: Arial;
+	background: #222;
+	margin: 0 350 5 350;
+	float: left;
+	padding: 20px;
+	border: 1px solid #22;
+	width: 500;
+	height: 400px;
+	opacity: 0.7;
+}
+
+body section div.logpanel:hover{
+	opacity: 1;
+}
+
+body footer{
+	font-family: Arial;
+	color: #fff;
+	opacity: 0.8;
+	position: relative;
+}
+
+body footer span.foot{
+	color: #fff;
+}
+
+body footer p{
+	text-align: left;
+	padding: 10px 0px 0px 0px;
+}
+
